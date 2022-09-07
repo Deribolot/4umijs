@@ -1,5 +1,15 @@
-import { Link, Outlet } from 'umi';
+import { Link, Outlet  } from 'umi';
+import 'antd/dist/antd.min.css';
+//import 'antd/es/style/themes/default.less';
+
 import styles from './index.less';
+import { ConfigProvider } from 'antd';
+
+ConfigProvider.config({
+    theme: {
+        primaryColor: '#25b864',
+    },
+});
 
 export default function Layout() {
   return (

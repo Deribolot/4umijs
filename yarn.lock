@@ -1295,6 +1295,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@types/antd@npm:^1.0.0":
+  version: 1.0.0
+  resolution: "@types/antd@npm:1.0.0"
+  dependencies:
+    antd: "*"
+  checksum: 1f2036449ab5c74090423752ceb6d64ef8adbc6086790b0ef0500cc0d20bb387cab14a2ecd69d8464b2b300aac19cbc1983d601097c0d3c1219229a0001b9694
+  languageName: node
+  linkType: hard
+
 "@types/babel__core@npm:^7.1.14":
   version: 7.1.19
   resolution: "@types/babel__core@npm:7.1.19"
@@ -2110,7 +2119,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"antd@npm:^4.23.0":
+"antd@npm:*, antd@npm:^4.23.0":
   version: 4.23.0
   resolution: "antd@npm:4.23.0"
   dependencies:
@@ -7911,6 +7920,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "root-workspace-0b6124@workspace:."
   dependencies:
+    "@types/antd": ^1.0.0
     "@types/react": ^18.0.0
     "@types/react-dom": ^18.0.0
     antd: ^4.23.0
